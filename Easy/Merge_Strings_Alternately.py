@@ -7,9 +7,8 @@ def mergeAlternately(word1, word2):
 
     result += word2[len(word1):]
     result += word1[len(word2):]
-    
 
     return result
 
 
-print(mergeAlternately("worldSheep", "world"))
+print(mergeAlternately("Hello", "World"))
