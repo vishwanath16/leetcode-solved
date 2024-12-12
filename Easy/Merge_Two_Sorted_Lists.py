@@ -1,75 +1,25 @@
-class Node:
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def mergeTwoLists(self, list1, list2):
+        dummy = ListNode(0)
+        current = dummy
 
-
-class LinkedList:
-    def __init__(self):
-        self.head = None
-
-    def append(self, data):
-        new_node = Node(data)
-        if self.head is None:
-            self.head = new_node
-        else:
-            current = self.head
-            while current.next:
-                current = current.next
-            current.next = new_node
-
-    def prepend(self, data):
-
-        new_node = Node(data)
-        new_node.next = self.head  
-        self.head = new_node  
-
-    def delete(self, data):
-        
-        current = self.head
-        if current and current.data == data:
-            self.head = current.next  
-            current = None  
-            return
-
-        prev = None
-        while current and current.data != data:
-            prev = current
-            current = current.next  
-
-        if current is None:  
-            return
-
-        prev.next = current.next
-        current = None  
-
-    def display(self):
-        current = self.head
-        while current:
-            print(current.data, end=" -> ")
+        while list1 and list2:
+            if list1.val < list2.val:
+                current.next = list1
+                list1 = list1.next
+            else:
+                current.next = list2
+                list2 = list2.next
             current = current.next
-        print("None")
 
+        if list1:
+            current.next = list1
+        else:
+            current.next = list2
 
-
-ll = LinkedList()
-
-
-ll.append(1)
-ll.append(2)
-ll.append(3)
-
-
-ll.display()  
-
-
-ll.prepend(0)
-ll.display()  
-
-
-ll.delete(2)
-ll.display()  
-
-
-ll.delete(0)
-ll.display()  
+        return dummy.next
