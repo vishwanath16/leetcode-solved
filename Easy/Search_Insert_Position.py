@@ -1,0 +1,18 @@
+# Link: https://leetcode.com/problems/search-insert-position/description/
+
+def searchInsert(nums, target):
+    left, right = 0, len(nums) - 1
+    
+    while left <= right:
+        mid = (left + right) // 2
+        if nums[mid] == target:
+            return mid
+        
+        elif nums[mid] < target:
+            left += 1
+        else:
+            right -= 1
+
+    return left
+
+print(searchInsert([1, 3, 5, 7, 9], 6))
