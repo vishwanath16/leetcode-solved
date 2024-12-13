@@ -1,6 +1,6 @@
 # Link: https://leetcode.com/problems/valid-anagram/description/
 
-def isAnagram(self, s: str, t: str) -> bool:
+def isAnagram(s, t):
     sd = {}
     td = {}
 
@@ -20,3 +20,6 @@ def isAnagram(self, s: str, t: str) -> bool:
         return True
     else: 
         return False
+    
+
+print(isAnagram('anagram', 'nagaram'))
