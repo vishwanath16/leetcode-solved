@@ -1,5 +1,5 @@
 # Link: https://leetcode.com/problems/plus-one/description/
-# Solution: https://leetcode.com/problems/plus-one/solutions/6144229/fastest-python-one-liner-plus-one-proble-qo8f
+# Solution Article: https://vishwanathts.hashnode.dev/step-by-step-guide-to-solve-leetcodes-plus-one-problem-using-pythons-map-function
 
 def plusOne(digits):
     increment = int(''.join(map(str, digits))) + 1

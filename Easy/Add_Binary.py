@@ -1,5 +1,5 @@
 # Link: https://leetcode.com/problems/add-binary/description/
-# Solution: https://vishwanathts.hashnode.dev/how-to-solve-add-binary-on-leetcode-a-step-by-step-guide
+# Solution Article: https://vishwanathts.hashnode.dev/how-to-solve-add-binary-on-leetcode-a-step-by-step-guide
 
 def addBinary(a, b):
 
