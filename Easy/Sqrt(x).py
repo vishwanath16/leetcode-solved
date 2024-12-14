@@ -1,6 +1,5 @@
 # Link: https://leetcode.com/problems/sqrtx/description/
-#Solution: https://leetcode.com/problems/sqrtx/solutions/6145109/efficient-binary-search-solution-find-sq-irhk
-
+# Solution Article: https://vishwanathts.hashnode.dev/how-to-solve-the-square-root-of-x-using-pythons-binary-search
 def mySqrt(x):
     left, right = 0, x
     result = 0

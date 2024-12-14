@@ -1,5 +1,5 @@
 # Link: https://leetcode.com/problems/length-of-last-word/description/
-# Solution: https://leetcode.com/problems/length-of-last-word/solutions/6144204/python-one-liner-solution-beats-100-runt-3adn
+# Solution Article: https://vishwanathts.hashnode.dev/how-to-solve-add-binary-on-leetcode-a-step-by-step-guide
 
 def lengthOfLastWord(s):
     return s.strip().split(" ")[-1]
