@@ -1,4 +1,5 @@
 # Link: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/
+# Solution Article: https://vishwanathts.hashnode.dev/convert-sorted-array-to-binary-search-tree-leetcode-solution
 
 # Definition for a binary tree node.
 # class TreeNode(object):
@@ -6,11 +7,12 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution(object):
     def sortedArrayToBST(self, nums):
         if not nums:
             return None
-        
+
         mid = len(nums) // 2
 
         root = TreeNode(nums[mid])
@@ -19,4 +21,3 @@ class Solution(object):
         root.right = self.sortedArrayToBST(nums[mid+1:])
 
         return root
-
