@@ -1,4 +1,6 @@
 # Link: https://leetcode.com/problems/excel-sheet-column-number/description/
+
+
 def titleToNumber(columnTitle):
     result = 0
 
