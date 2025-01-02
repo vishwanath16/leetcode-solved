@@ -19,3 +19,16 @@ print(f"Reversed Binary: {reversed_binary}")  # Output: 001110010111100000101001
 # If you want the reversed binary as an integer, convert it back to decimal
 reversed_decimal = int(reversed_binary, 2)
 print(f"Reversed Binary (as Decimal): {reversed_decimal}")
+
+
+#Integer to Binary
+
+integer = 11
+print(bin(integer, 2))
+
+
+# Compare using & operation (converts to binary and compares it)
+
+n = 8
+
+print( n & 1) #output: 0
