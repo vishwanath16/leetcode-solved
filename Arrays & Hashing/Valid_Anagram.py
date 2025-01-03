@@ -1,5 +1,7 @@
 # Link: https://leetcode.com/problems/valid-anagram/description/
 
+#Method 1: Using a dictionary
+
 def isAnagram(s, t):
     sd = {}
     td = {}
@@ -23,3 +25,11 @@ def isAnagram(s, t):
     
 
 print(isAnagram('anagram', 'nagaram'))
+
+
+#Method 2: Using Counter
+
+from collections import Counter
+
+def isAnagram(s, t):
+    return Counter(s) == Counter(t)
