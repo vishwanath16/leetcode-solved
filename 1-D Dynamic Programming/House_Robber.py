@@ -6,14 +6,14 @@ def rob(nums):
     if len(nums) == 1:
         return nums[0]
     
-    prev2, prev1 = 0, nums[0]
+    prev_max, current_max = 0, nums[0]
     
     for i in range(1, len(nums)):
-        current = max(prev1, nums[i] + prev2)
-        prev2 = prev1
-        prev1 = current
+        new_max = max(current_max, nums[i] + prev_max)
+        prev_max = current_max
+        current_max = new_max
     
-    return prev1
+    return current_max
 
 
-print(rob([1,2,3,1]))
+print(rob([1,2,3]))
