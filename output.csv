@@ -1,0 +1,56 @@
+id,problem_name,category,level,date
+1,Best_Time_to_Buy_and_Sell_Stock,1-D Dynamic Programming,Easy,02-12-2024
+2,Climbing_Stairs,1-D Dynamic Programming,Easy,02-12-2024
+3,Contains_Duplicate,Arrays & Hashing,Easy,03-12-2024
+4,Find_the_Index_of_the_First_Occurrence_in_a_String,Arrays & Hashing,Easy,05-12-2024
+5,Length_of_Last_Word,Arrays & Hashing,Easy,07-12-2024
+6,Longest_common_prefix,Arrays & Hashing,Easy,07-12-2024
+7,Ransom_Note,Arrays & Hashing,Easy,08-12-2024
+8,Remove_Element,Arrays & Hashing,Easy,09-12-2024
+9,Two_Sum,Arrays & Hashing,Easy,11-12-2024
+10,Valid_Anagram,Arrays & Hashing,Easy,13-12-2024
+11,Sqrt(x),Binary Search,Easy,14-12-2024
+12,Add_Binary,Bit Manipulation,Easy,14-12-2024
+13,Number_Complement,Bit Manipulation,Easy,15-12-2024
+14,Reverse_Bits,Bit Manipulation,Easy,15-12-2024
+15,Merge_Two_Sorted_Lists,Linked List,Easy,15-12-2024
+16,Remove_Duplicates_from_Sorted_List,Linked List,Easy,19-12-2024
+17,Excel_Sheet_Column_Number,Math & Geometry,Easy,19-12-2024
+18,Plus_One,Math & Geometry,Easy,20-12-2024
+19,Roman_to_Integer,Math & Geometry,Easy,22-12-2024
+20,Ugly_Number,Math & Geometry,Easy,23-12-2024
+21,Final_Array_State_After_K_Multiplication_Operations_I,Sliding Window,Easy,24-12-2024
+22,Balanced_Binary_Tree,Trees,Easy,25-12-2024
+23,Binary_Tree_Inorder_Traversal,Trees,Easy,27-12-2024
+24,Convert_Sorted_Array_to_Binary_Search_Tree,Trees,Easy,28-12-2024
+25,Maximum_Depth_of_Binary_Tree,Trees,Easy,29-12-2024
+26,Same_Tree,Trees,Easy,29-12-2024
+27,Search_Insert_Position,Trees,Easy,29-12-2024
+28,Symmetric_Tree,Trees,Easy,31-12-2024
+29,Merge_Sorted_Array,Two Pointers,Easy,31-12-2024
+30,Merge_Strings_Alternately,Two Pointers,Easy,31-12-2024
+31,Remove_Duplicates_from_Sorted_Array,Two Pointers,Easy,31-12-2024
+32,Valid_Palindrome,Two Pointers,Easy,31-12-2024
+33,Valid_Parentheses,Stack,Easy,01-01-2025
+34,Reverse_Linked_List,Linked List,Easy,01-01-2025
+35,Invert_Binary_Tree,Trees,Easy,01-01-2025
+36,Meeting_Rooms,Intervals,Easy,02-01-2025
+37,Missing_Number,Arrays & Hashing,Easy,02-01-2025
+38,Linked_List_Cycle,Linked List,Easy,02-01-2025
+39,Subtree_of_Another_Tree,Trees,Easy,02-01-2025
+40,Number_of_1_Bits,Bit Manipulation,Easy,02-01-2025
+41,Counting_Bits,Bit Manipulation,Easy,02-01-2025
+42,Group_Anagrams,Arrays & Hashing,Medium,03-01-2025
+43,3Sum,Arrays & Hashing,Medium,03-01-2025
+44,Two_Sum_II,Arrays & Hashing,Medium,05-01-2025
+45,House_Robber,1-D Dynamic Programming,Medium,06-01-2025
+46,House_Robber_II,1-D Dynamic Programming,Medium,06-01-2025
+47,Number_of_Islands,Graphs,Medium,08-01-2025
+48,Coin_Change,1-D Dynamic Programming,Medium,14-01-2025
+49,Sum_of_Two_Integers,Bit Manipulation,Medium,17-01-2025
+50,Spiral_Matrix,Math & Geometry,Medium,19-01-2025
+51,Longest_Common_Subsequence,2-D Dynamic Programming,Medium,21-01-2025
+52,Remove_Nth_Node_From_End_of_List,Linked List,Medium,21-01-2025
+53,Decode_Ways,1-D Dynamic Programming,Medium,22-01-2025
+54,Valid_Sudoku,Arrays & Hashing,Medium,25-01-2025
+55,Top_K_Frequent_Elements,Arrays & Hashing,Medium,25-01-2025
