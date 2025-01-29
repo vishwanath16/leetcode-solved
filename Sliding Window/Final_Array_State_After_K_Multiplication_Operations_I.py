@@ -11,12 +11,9 @@ def getFinalState(nums, k, multiplier):
     heapq.heapify(min_heap)
 
     for _ in range(k):
-
         n, i = heapq.heappop(min_heap)
         result[i] *= multiplier
         heapq.heappush(min_heap, (result[i], i))
-
-        
 
     return result
 
