@@ -1,6 +1,5 @@
 # Link: https://leetcode.com/problems/longest-repeating-character-replacement/description/
 
-
 # Method 1
 
 def characterReplacement(s, k):
