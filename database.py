@@ -16,8 +16,8 @@ c.execute('''
 rows = c.fetchall()
 headers = [desc[0] for desc in c.description]
 
-# print(choice(rows))
-print(tabulate(rows, headers=headers, tablefmt='heavy_grid'))
+print(choice(rows))
+# print(tabulate(rows, headers=headers, tablefmt='heavy_grid'))
 
 conn.commit()
 conn.close()
